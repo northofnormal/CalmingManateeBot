@@ -9,8 +9,6 @@ looking_for_sad = ["sad", "down", "blue", "unhappy"]
 looking_for_angry = ["angry", "cranky", "not happy", "grouchy"]
 looking_for_frust = ["frustrated", "frustration", "difficult", "hard", "frustrating"]
 
-#words that indicate: sadness, anger, frustration
-
 irc_server = TCPSocket.open(server, port)
 
 irc_server.puts "USER bcalmingmanatee 0 * BCalmingManatee"
